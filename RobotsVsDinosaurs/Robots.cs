@@ -8,18 +8,24 @@ namespace RobotsVsDinosaurs
 {
     class Robots
     {
-        string name;
-        double health;
-        char powerlevel;
-        char weapon;
-        double attackPower;
-    }
+        public string name;
+        public double health;
+        public double powerlevel;
+        public double weapon;
+           
 
-    public 
-    {
+
+
+
+        public Robots(string name, double health, double powerlevel, double weapon,)
+        {
+            this.name = name;
+            this.health = health;
+            this.powerlevel = powerlevel;
+            this.weapon = weapon;
+            
+        }
         
-
-
     }
 
 

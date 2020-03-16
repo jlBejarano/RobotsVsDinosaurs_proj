@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace RobotsVsDinosaurs
 {
-    class Program
+    class Power_Level
     {
-        static void Main(string[] args)
-        {
-            
-
-        }
     }
 }
