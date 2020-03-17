@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace RobotsVsDinosaurs
 {
-    class Power_Level
+    class Battlefield
     {
+        string fleet = "fleet";
+        string herd = "herd";
+        int fleetHealth = 100;
+        int herdHealth = 100;
+        int fleetAttackPower = 50;
+        int herdAttackPower = 50;
+
+        public void RunFight()
+        {
+            Console.WriteLine("Starting battle between dinosaurs and robots!");
+            Console.ReadLine();
+        }
+
+        public Battlefield(int Health, int AttackPower)
+        {
+
+        }
+
     }
 }
