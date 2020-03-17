@@ -9,12 +9,12 @@ namespace RobotsVsDinosaurs
     class Dinosaurs
     {
             public string type;
-            public double health;
-            public double energy;
+            public int health;
+            public int energy;
             
 
 
-        public Dinosaurs(string type, double health, double energy)
+        public Dinosaurs(string type, int health, int energy)
         {
             this.type = type;
             this.health = health;

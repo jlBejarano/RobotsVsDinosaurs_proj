@@ -15,6 +15,8 @@ namespace RobotsVsDinosaurs
       public string weapon1;
       public string weapon2;
       public string weapon3;
+      
+
 
         public Fleet(string robots1, string robots2, string robots3, string weapon1, string weapon2, string weapon3)
         {
@@ -24,8 +26,15 @@ namespace RobotsVsDinosaurs
             this.weapon1 = weapon1;
             this.weapon2 = weapon2;
             this.weapon3 = weapon3;
+
+            public fleet()
+        
+            public Robots robots1 = new Robots("Destroyer", 100, 50);
+            public Robots robots2 = new Robots("T60", 100, 50);
+            public Robots robots3 = new Robots("Robo", 100, 50);
         }
     }
+}
 
 
         

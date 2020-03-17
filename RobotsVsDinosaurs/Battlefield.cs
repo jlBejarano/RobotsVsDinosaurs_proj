@@ -26,5 +26,14 @@ namespace RobotsVsDinosaurs
 
         }
 
+        public void Run()
+        {
+            Console.WriteLine("this is the battle");
+            Console.ReadLine();
+
+            RunFight();
+        }
+
+
     }
 }

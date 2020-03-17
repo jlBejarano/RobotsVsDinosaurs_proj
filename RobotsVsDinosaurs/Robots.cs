@@ -9,15 +9,15 @@ namespace RobotsVsDinosaurs
     class Robots
     {
         public string name;
-        public double health;
-        public double powerlevel;
-        public double weapon;
-           
+        public int health;
+        public int powerlevel;
+        public int weapon;
 
 
 
 
-        public Robots(string name, double health, double powerlevel, double weapon,)
+
+        public Robots(string name, int health, int powerlevel, int weapon)
         {
             this.name = name;
             this.health = health;

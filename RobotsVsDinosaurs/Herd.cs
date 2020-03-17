@@ -13,12 +13,12 @@ namespace RobotsVsDinosaurs
         public Dinosaurs dinosaur3; 
     }
     public Herd
-    { 
-        public Dinosaurs dinosaurs1 = new Dinosaurs("Raptor", 100, 50);
-        public Dinosaurs dinosaurs2 = new Dinosaurs("Rex", 100, 50);
+     
+        public Dinosaurs dinosaur1 = new Dinosaurs("Raptor", 100, 50);
+        public Dinosaurs dinosaur2 = new Dinosaurs("Rex", 100, 50);
         public Dinosaurs dinosaur3 = new Dinosaurs("Big Joe", 100, 50);
 
-    }
+    
     
         
        

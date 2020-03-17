@@ -10,7 +10,8 @@ namespace RobotsVsDinosaurs
     {
         static void Main(string[] args)
         {
-            
+            RobotsVsDinosaurs sim = new Simulation();
+            simulation.Run();
 
         }
     }
